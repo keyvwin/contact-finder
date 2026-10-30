@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "contact-finder": {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=call-actor,fetch-actor-details,b2bsearch/linkedin-email-finder,b2bsearch/linkedin-to-phone,b2bsearch/profile-lookup,b2bsearch/reverse-email-lookup,b2bsearch/email-to-linkedin,b2bsearch/work-email-finder,b2bsearch/name-to-profile,b2bsearch/bulk-people-enrichment&client=contact-finder"
+    }
+  }
+}

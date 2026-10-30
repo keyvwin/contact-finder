@@ -1,0 +1,27 @@
+{
+  "name": "contact-finder",
+  "version": "1.0.0",
+  "description": "Contact Finder for Cursor, Claude Code and Grok Bot: email finder, phone number finder and mobile number lookup for people you already have. Find email from a profile URL, reverse email lookup, work email finder by name and domain, contact enrichment and bulk enrichment of a CSV. Pay per found row.",
+  "author": {
+    "name": "b2bsearch",
+    "url": "https://apify.com/b2bsearch"
+  },
+  "homepage": "https://apify.com/b2bsearch",
+  "repository": "https://github.com/b2bsearch/contact-finder",
+  "license": "MIT",
+  "keywords": [
+    "contact-finder",
+    "email-finder",
+    "phone-number-finder",
+    "mobile-number-lookup",
+    "reverse-email-lookup",
+    "work-email-finder",
+    "contact-enrichment",
+    "bulk-enrichment",
+    "b2bsearch",
+    "mcp",
+    "cursor",
+    "grok-bot",
+    "apify"
+  ]
+}
