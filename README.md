@@ -46,16 +46,8 @@ most the run can cost, waits for your yes and then runs with a spend cap.
 
 The `ready-made-tasks` skill holds 8 tested inputs, each a public Apify task page:
 
-- [10. Profile URLs to mobile numbers](https://apify.com/b2bsearch/linkedin-to-phone/examples/linkedin-urls-to-mobile-numbers)
-- [11. CRM contacts with an email and no number](https://apify.com/b2bsearch/linkedin-to-phone/examples/crm-emails-to-mobile-numbers)
-- [12. Profile URLs to work emails](https://apify.com/b2bsearch/linkedin-email-finder/examples/linkedin-urls-to-work-emails)
-- [13. Find the CRM contacts who will bounce](https://apify.com/b2bsearch/linkedin-email-finder/examples/crm-contacts-with-past-employer-emails)
-- [14. Personal emails for recruiting](https://apify.com/b2bsearch/linkedin-email-finder/examples/personal-emails-for-recruiting)
-- [28. Qualify inbound sign-ups by email](https://apify.com/b2bsearch/reverse-email-lookup/examples/qualify-inbound-signups-by-email)
-- [29. Where do your customer contacts work now](https://apify.com/b2bsearch/profile-lookup/examples/where-do-my-contacts-work-now)
-- [30. A CRM export with a bit of everything](https://apify.com/b2bsearch/waterfall-lead-enrichment/examples/crm-export-to-emails-and-phones)
 
-Generated from [recipes/tasks.json](https://github.com/b2bsearch/b2bsearch-plugin/blob/main/recipes/tasks.json).
+Generated from [recipes/tasks.json](https://github.com/keyvwin/b2bsearch-plugin/blob/main/recipes/tasks.json).
 <!-- recipes:end -->
 
 ## Install
@@ -72,7 +64,7 @@ opens the Apify sign-in.
 ### Claude Code
 
 ```bash
-claude plugin marketplace add b2bsearch/contact-finder
+claude plugin marketplace add keyvwin/contact-finder
 claude plugin install contact-finder@contact-finder
 ```
 
@@ -150,14 +142,13 @@ Maintained by the author of the b2bsearch Actors on Apify; no referral parameter
 
 Same data and the same Apify account, split by job:
 
-- [Full ICP Search](https://github.com/b2bsearch/full-icp-search): size an ideal customer profile for free, then people, leads, decision makers, companies and job postings
-- [B2B Leads Finder](https://github.com/b2bsearch/b2b-leads-finder): lead lists with emails and phones, saved-search import, weekly top-ups
-- [Hiring Signals](https://github.com/b2bsearch/hiring-signals): who is hiring for a role, postings that mention a technology, decision makers at hiring companies
-- [Account Signals](https://github.com/b2bsearch/account-signals): new hires and job changes at target accounts, champion tracking, lookalike companies
+- [Full ICP Search](https://github.com/keyvwin/full-icp-search): size an ideal customer profile for free, then people, leads, decision makers, companies and job postings
+- [B2B Leads Finder](https://github.com/keyvwin/b2b-leads-finder): lead lists with emails and phones, saved-search import, weekly top-ups
+- [Hiring Signals](https://github.com/keyvwin/hiring-signals): who is hiring for a role, postings that mention a technology, decision makers at hiring companies
+- [Account Signals](https://github.com/keyvwin/account-signals): new hires and job changes at target accounts, champion tracking, lookalike companies
 
-All of them install from one Claude Code marketplace: `claude plugin marketplace add b2bsearch/b2bsearch-plugin`.
+All of them install from one Claude Code marketplace: `claude plugin marketplace add keyvwin/b2bsearch-plugin`.
 
 ## License
 
 MIT, see [LICENSE](LICENSE). Issues and requests: the GitHub issue tracker of this
-repository. Actors and pricing: [apify.com/b2bsearch](https://apify.com/b2bsearch).

@@ -197,4 +197,4 @@ Variant, [Enrich a CSV of Emails, Profile URLs and Names in Bulk](https://apify.
 {"csv":"https://api.apify.com/v2/key-value-stores/3QjjLxhysmMUbUbyX/records/sample-people.csv","contacts":true}
 ```
 
-Source: [recipes/tasks.json](https://github.com/b2bsearch/b2bsearch-plugin/blob/main/recipes/tasks.json).
+Source: [recipes/tasks.json](https://github.com/keyvwin/b2bsearch-plugin/blob/main/recipes/tasks.json).
