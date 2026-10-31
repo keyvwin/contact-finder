@@ -1,7 +1,7 @@
 {
   "name": "contact-finder",
   "displayName": "Contact Finder",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Contact Finder for Cursor, Claude Code and Grok Bot: email finder, phone number finder and mobile number lookup for people you already have. Find email from a profile URL, reverse email lookup, work email finder by name and domain, contact enrichment and bulk enrichment of a CSV. Pay per found row.",
   "author": {
     "name": "b2bsearch",
@@ -36,5 +36,6 @@
     "grok-bot"
   ],
   "skills": "./skills/",
+  "commands": "./commands/",
   "mcpServers": "./mcp.json"
 }

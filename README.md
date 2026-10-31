@@ -27,9 +27,36 @@ account; misses are free.
 | Facebook usernames | email address | `call-actor` → `b2bsearch/facebook-to-email` |
 | a CSV that mixes people and bare company domains | people rows and company rows | `call-actor` → `b2bsearch/waterfall-lead-enrichment` |
 
-Six skills teach the agent the method: route each ask to one tool, state the cost before
+Seven skills teach the agent the method: route each ask to one tool, state the cost before
 the run, label every email as work or personal, report what was not found and why. See
 [skills/](skills/).
+
+<!-- recipes:start -->
+## Commands and ready-made tasks
+
+Type `/` in Cursor or Claude Code (Claude Code shows them with the plugin prefix, such as
+`/contact-finder:call-list`). Each command runs the free count or preview first, says the
+most the run can cost, waits for your yes and then runs with a spend cap.
+
+| Command | What it does |
+|---|---|
+| `/call-list` | Build a cold calling list with verified mobile numbers. |
+| `/crm-bounce-check` | Find the CRM contacts whose email will bounce because they changed jobs. |
+| `/qualify-signup` | Qualify inbound sign-ups by email, Gmail included. |
+
+The `ready-made-tasks` skill holds 8 tested inputs, each a public Apify task page:
+
+- [10. Profile URLs to mobile numbers](https://apify.com/b2bsearch/linkedin-to-phone/examples/linkedin-urls-to-mobile-numbers)
+- [11. CRM contacts with an email and no number](https://apify.com/b2bsearch/linkedin-to-phone/examples/crm-emails-to-mobile-numbers)
+- [12. Profile URLs to work emails](https://apify.com/b2bsearch/linkedin-email-finder/examples/linkedin-urls-to-work-emails)
+- [13. Find the CRM contacts who will bounce](https://apify.com/b2bsearch/linkedin-email-finder/examples/crm-contacts-with-past-employer-emails)
+- [14. Personal emails for recruiting](https://apify.com/b2bsearch/linkedin-email-finder/examples/personal-emails-for-recruiting)
+- [28. Qualify inbound sign-ups by email](https://apify.com/b2bsearch/reverse-email-lookup/examples/qualify-inbound-signups-by-email)
+- [29. Where do your customer contacts work now](https://apify.com/b2bsearch/profile-lookup/examples/where-do-my-contacts-work-now)
+- [30. A CRM export with a bit of everything](https://apify.com/b2bsearch/waterfall-lead-enrichment/examples/crm-export-to-emails-and-phones)
+
+Generated from [recipes/tasks.json](https://github.com/b2bsearch/b2bsearch-plugin/blob/main/recipes/tasks.json).
+<!-- recipes:end -->
 
 ## Install
 
